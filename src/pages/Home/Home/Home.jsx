@@ -1,11 +1,10 @@
-import Navbar from "../../../components/navAndFooter/navbar/Navbar";
-
+import React from 'react';
+import Tasks from '../Tasks';
 
 const Home = () => {
    return (
       <div>
-         {/* <Navbar /> */}
-         "This is Home page"
+         <Tasks />
       </div>
    );
 };
